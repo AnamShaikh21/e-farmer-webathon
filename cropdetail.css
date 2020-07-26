@@ -1,0 +1,222 @@
+body, html {
+  height: 100%;
+  margin: 0;
+    background-image: url(brown2.jpg);
+    margin-bottom: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image:url(brown2.jpg);
+  /* Add the blur effect */
+  filter: blur(1.5px);
+  -webkit-filter: blur(1.5px);
+  
+  /* Full height */
+  height: 50%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color:beige;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Drop box */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+     padding: 30px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+    padding: 20px;
+}
+
+.dropdown-content {
+  display: none;
+    font-size: 18px;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown-content a:hover {background-color: rgba(25, 188, 4, 0.66)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+    
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+/* bottom text*/
+h2{
+    color: #ce0e0e;
+}
+
+.wheatinfo{
+      background-color: rgb(19, 136, 9); /* Fallback color */
+  background-color: rgba(173, 239, 179, 0.80); /* Black w/opacity/see-through */
+  color:black;
+  font-weight:bold;
+    font-size: 18px;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 140%;
+  left: 33%;
+  transform: translate(-30%, -25%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.jowarinfo{
+ background-color: rgb(19, 136, 9); /* Fallback color */
+  background-color: rgba(173, 239, 179, 0.80); /* Black w/opacity/see-through */
+  color:black;
+  font-weight:bold;
+    font-size: 18px;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 375%;
+  left: 33%;
+  transform: translate(-30%, -25%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+.bajrainfo{
+ background-color: rgb(19, 136, 9); /* Fallback color */
+  background-color: rgba(173, 239, 179, 0.80); /* Black w/opacity/see-through */
+  color:black;
+  font-weight:bold;
+    font-size: 18px;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 584%;
+  left: 33%;
+  transform: translate(-30%, -25%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.riceinfo{
+ background-color: rgb(19, 136, 9); /* Fallback color */
+  background-color: rgba(173, 239, 179, 0.80); /* Black w/opacity/see-through */
+  color:black;
+  font-weight:bold;
+    font-size: 18px;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 880%;
+  left: 33%;
+  transform: translate(-30%, -25%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+
+}
+.maizeinfo{
+ background-color: rgb(19, 136, 9); /* Fallback color */
+  background-color: rgba(173, 239, 179, 0.80); /* Black w/opacity/see-through */
+  color:black;
+  font-weight:bold;
+    font-size: 18px;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 1161%;
+  left: 33%;
+  transform: translate(-30%, -25%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.sugarcaneinfo{
+ background-color: rgb(19, 136, 9); /* Fallback color */
+  background-color: rgba(173, 239, 179, 0.80); /* Black w/opacity/see-through */
+  color:black;
+  font-weight:bold;
+    font-size: 18px;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 1330%;
+  left: 33%;
+  transform: translate(-30%, -25%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+
+}
+.pulsesinfo{
+ background-color: rgb(19, 136, 9); /* Fallback color */
+  background-color: rgba(173, 239, 179, 0.80); /* Black w/opacity/see-through */
+  color:black;
+  font-weight:bold;
+    font-size: 18px;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 1520%;
+  left: 33%;
+  transform: translate(-30%, -25%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+margin-bottom: 10px;
+}
